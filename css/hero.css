@@ -1,0 +1,32 @@
+.hero__wrapper {
+ 
+}
+.hero {
+  padding: 5rem 0 ;
+}
+.hero__box {
+  padding: 2rem;
+  position: relative;
+  margin-bottom: 6rem;
+}
+.hero__box::before {
+  display: block;
+  content: '';
+  position: absolute;
+  background-color: var(--sub-bg-color);
+  background-color: rgba(0, 0, 0, .4);
+  border-radius:50%;
+  width: 50rem;
+  height: 50rem;
+  top: 50%;
+  left: 50%;
+  transform:translate(-50%, -50%);
+}
+.hero__box .img {
+  position: relative;
+}
+.hero .title{
+  display: inline-block;
+  position: relative;
+  color:var(--sub-text-color);
+}
